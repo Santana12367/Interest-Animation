@@ -1,0 +1,15 @@
+What I prompted:
+
+"How do I use nested loops to change the colors of an image stored in a 2D array, 
+and how do I make sure I don't skip any pixels or crash the program?"
+
+What response I recieved:
+
+1. The Nested Loop Logic:
+You use the outer loop to move down the rows and the inner loop to move across the columns. It looks like this:
+java
+for (int row = 0; row < pixels.length; row++) {
+  for (int col = 0; col < pixels[0].length; col++) {
+    // Logic to change pixel color goes here
+  }
+}
